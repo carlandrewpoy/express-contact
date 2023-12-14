@@ -14,8 +14,17 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-  "username": "zoro",
-  "password": "zoro"
+  "username": "qqq",
+  "password": "www"
+}
+###
+POST http://localhost:3000/changepass
+Content-Type: application/json
+
+{
+  "currentPassword": "qqq",
+  "newPassword": "www"
+
 }
 
 
